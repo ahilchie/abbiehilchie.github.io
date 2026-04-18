@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bucket List</title>
+    <!-- Link to your custom stylesheet -->
+    <link rel="stylesheet" href="css/mystyles.css">
+</head>
+<body>
+
+    <!-- NAVIGATION back to professional pages -->
+    <div id="topnav">
+        <a href="index.html">Home</a> |
+        <a href="travelplans.html">Travel Plans</a> |
+        <a href="traveltime.html">Travel Time</a>
+    </div>
+
+    <!-- HEADER with on-page anchor target -->
+    <div id="header">
+        <h1>My Bucket List</h1>
+        <p>Places I dream of exploring around the world.</p>
+        <!-- On-page anchor link — jumps down to the video section -->
+        <a href="#video-section">Jump to Videos</a>
+    </div>
+
+    <!-- IMAGE (not from Bootstrap theme) -->
+    <div id="image-section">
+        <h2>Inspiration</h2>
+        <img src="assets/img/travel.jpeg" alt="Travel inspiration" width="600">
+    </div>
+
+    <!-- NESTED LISTS: ordered list with unordered list inside -->
+    <div id="list-section">
+        <h2>Top Destinations</h2>
+        <ol>
+            <li>North America
+                <ul>
+                    <li>Tetons, Wyoming</li>
+                    <li>Banff, Canada</li>
+                    <li>Lake Louise, Canada</li>
+                </ul>
+            </li>
+            <li>Europe
+                <ul>
+                    <li>Amalfi Coast, Italy</li>
+                    <li>Santorini, Greece</li>
+                </ul>
+            </li>
+            <li>South America
+                <ul>
+                    <li>Patagonia, Argentina</li>
+                    <li>Amazon Rainforest, Brazil</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+    <!-- YOUTUBE VIDEO — on-page anchor target -->
+    <div id="video-section">
+        <h2>Watch: Top Places to Travel</h2>
+        <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/watch?v=s3G2kLruJJo" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <!-- TABLEAU GRAPH -->
+    <div id="tableau-section">
+        <h2>Travel Data Visualization</h2>
+        </div>
+        <div class='tableauPlaceholder' id='viz1776393093286' style='position: relative'>
+            <noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NP&#47;NP55G3KG8&#47;1_rss.png' style='border: none' /></a></noscript>
+            <object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;NP55G3KG8' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NP&#47;NP55G3KG8&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object>
+            </div>
+            <script type='text/javascript'>
+            var divElement = document.getElementById('viz1776393093286');
+            var vizElement = divElement.getElementsByTagName('object')[0];
+            if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.minHeight='1050px';vizElement.style.maxHeight=(divElement.offsetWidth*1.77)+'px';}
+            var scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+    </div>
+
+    <!-- LINK TO WEB APP -->
+    <div id="app-section">
+        <h2>Try My Web App</h2>
+        <p><a href="app.html">Click here to try my interactive travel quiz!</a></p>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+        <p>Back to top: <a href="#header">Jump to top</a></p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,139 @@
+/* Custom stylesheet for fromscratch.html */
+
+/* Body — custom background color */
+body {
+    background-color: #f0f4f0;
+    font-family: Georgia, serif;
+    color: #2c2c2c;
+    margin: 0;
+    padding: 0;
+}
+
+/* Top navigation div */
+#topnav {
+    background-color: #2c5f2e;
+    padding: 12px 20px;
+    font-family: Arial, sans-serif;
+}
+
+#topnav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+#topnav a:hover {
+    text-decoration: underline;
+}
+
+#topnav {
+    background-color: #2c5f2e;
+    padding: 12px 20px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+}
+
+#topnav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#topnav a:hover {
+    text-decoration: underline;
+}
+
+/* Header div */
+#header {
+    background-color: #4a7c59;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+    font-family: Georgia, serif;
+}
+
+#header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+#header a {
+    color: #d4edda;
+    font-style: italic;
+}
+
+/* Image section div */
+#image-section {
+    text-align: center;
+    padding: 30px;
+    background-color: #ffffff;
+}
+
+#image-section img {
+    border: 4px solid #2c5f2e;
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+/* List section div */
+#list-section {
+    padding: 30px 60px;
+    background-color: #e8f5e9;
+    font-family: Arial, sans-serif;
+    color: #1a3a1a;
+}
+
+#list-section h2 {
+    color: #2c5f2e;
+}
+
+#list-section ol {
+    font-size: 1.1em;
+    line-height: 2em;
+}
+
+/* Video section div */
+#video-section {
+    padding: 30px;
+    text-align: center;
+    background-color: #ffffff;
+    color: #2c2c2c;
+    font-family: Georgia, serif;
+}
+
+/* Tableau section div */
+#tableau-section {
+    padding: 30px 60px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+/* App section div */
+#app-section {
+    padding: 30px 60px;
+    background-color: #d4edda;
+    font-family: Georgia, serif;
+    color: #1a3a1a;
+}
+
+#app-section a {
+    color: #2c5f2e;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Footer div */
+#footer {
+    background-color: #2c5f2e;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+#footer a {
+    color: #d4edda;
+}
